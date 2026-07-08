@@ -17,7 +17,12 @@
   --green:#40a040;--green2:#50c050;
   --r:8px;--rsm:4px;--rlg:12px;
 }
-body{font-family:'Hiragino Kaku Gothic Pro','Yu Gothic',Meiryo,sans-serif;background:var(--bg3);color:var(--text);min-height:100vh}
+body{
+  font-family:'Hiragino Kaku Gothic Pro','Yu Gothic',Meiryo,sans-serif;
+  background:var(--bg3);
+  color:var(--text);
+  min-height:100vh
+}
 .screen{display:none;width:100%;min-height:100vh}
 .screen.active{display:flex;flex-direction:column;align-items:center}
 #scr-title{background:radial-gradient(ellipse at 50% 30%,#1a4a1a,#050f05);justify-content:center;gap:24px;padding:40px 20px}
@@ -159,9 +164,25 @@ body{font-family:'Hiragino Kaku Gothic Pro','Yu Gothic',Meiryo,sans-serif;backgr
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:var(--bg3)}
 ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.video-container{
+  width: 100vw;
+  height: 100vh;
+}
+    
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
 </style>
 </head>
 <body>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/t-VbAZcyZ_U?si=nYCXzucKjsdtMNmn&autoplay=1&playsinline=1"></iframe>
+</div>
 <div id="scr-title" class="screen active">
   <div style="text-align:center">
     <div style="font-size:54px;margin-bottom:10px;filter:drop-shadow(0 0 18px rgba(212,168,67,.7))">🀄</div>
