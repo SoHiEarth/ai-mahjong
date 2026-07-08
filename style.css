@@ -5,17 +5,17 @@
 }
 
 :root {
-    --bg: #3a1a1a;
-    --bg2: #2a0f0f;
-    --bg3: #1f0a0a;
+    --bg: #1a3a1a;
+    --bg2: #0f2a0f;
+    --bg3: #0a1f0a;
     --panel: #1e2820;
     --panel2: #253020;
     --panel3: #2a3825;
     --border: #3a5a3a;
     --border2: #4a6a4a;
-    --text: #ff1313;
-    --text2: #ff9696;
-    --text3: #c08787;
+    --text: #e8f4e8;
+    --text2: #a8c8a8;
+    --text3: #6a9a6a;
     --gold: #d4a843;
     --gold2: #e8c060;
     --red: #c84040;
@@ -49,7 +49,7 @@ body {
 }
 
 #scr-title {
-    background: radial-gradient(ellipse at 50% 30%, #7d3434, #973333);
+    background: radial-gradient(ellipse at 50% 30%, #1a4a1a, #050f05);
     justify-content: center;
     gap: 24px;
     padding: 40px 20px
